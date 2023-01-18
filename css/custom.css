@@ -257,7 +257,7 @@
   width: 16px;
   height: 16px;
   /* 这里改变跟随的底色 */
-  background: var(--theme-color);
+  background: #74d7cf;
   border-radius: 8px;
   opacity: 0.25;
   z-index: 10086;
@@ -376,8 +376,6 @@ h6::before {
   animation: ccc 6s linear infinite;
 }
 
-/* 引入iconfont自定义图标 */
-@import '//at.alicdn.com/t/c/font_3862534_n5y5wgv0goo.css';
 svg.icon {
   width: 1.28em;
   height: 1.28em;
@@ -543,18 +541,6 @@ svg.social_icon {
 /* 代码框主题 */
 #article-container figure.highlight {
   border-radius: 10px;
-}
-
-/* 鼠标图标 */
-body {
-  cursor: url('/img/x1.cur'), auto;
-}
-a,
-[type='button']:not(:disabled),
-[type='reset']:not(:disabled),
-[type='submit']:not(:disabled),
-button:not(:disabled) {
-  cursor: url('/img/x2.cur'), auto !important;
 }
 
 /*哔哩哔哩视频适配*/

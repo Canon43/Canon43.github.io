@@ -1,11 +1,12 @@
-body::-webkit-scrollbar {
+/* 滚动条隐藏 */
+/* body::-webkit-scrollbar {
   width: 0;
-}
+} */
 
 .neko {
   width: 64px;
   height: 64px;
-  background-image: url("https://lskypro.acozycotage.net/LightPicture/2022/12/ba9f5739f169842c.webp");
+  background-image: url('https://lskypro.acozycotage.net/LightPicture/2022/12/ba9f5739f169842c.webp');
   position: absolute;
   right: 32px;
   background-repeat: no-repeat;
@@ -23,7 +24,7 @@ body::-webkit-scrollbar {
   display: none;
   width: 100px;
   height: 100px;
-  background-image: url("https://bu.dusays.com/2022/07/20/62d812d95e6f5.png");
+  background-image: url('https://bu.dusays.com/2022/07/20/62d812d95e6f5.png');
   background-size: contain;
   z-index: 9999;
   position: absolute;
@@ -31,7 +32,6 @@ body::-webkit-scrollbar {
   text-align: center;
   line-height: 100px;
   top: -115%;
-
 }
 
 .neko.showMsg::after {
@@ -55,23 +55,32 @@ body::-webkit-scrollbar {
 /**
 * @description: 滚动条样式  跟猫二选一
 */
-@media screen and (max-width:992px) {
+/* @media screen and (max-width: 992px) {
   ::-webkit-scrollbar {
-      width: 8px !important;
-      height: 8px !important
+    width: 8px !important;
+    height: 8px !important;
   }
 
   ::-webkit-scrollbar-track {
-      border-radius: 2em;
+    border-radius: 2em;
   }
 
   ::-webkit-scrollbar-thumb {
-      background-color: rgb(255 255 255 / .3);
-      background-image: -webkit-linear-gradient(45deg, rgba(255, 255, 255, 0.1) 25%, transparent 25%, transparent 50%, rgba(255, 255, 255, 0.1) 50%, rgba(255, 255, 255, 0.1) 75%, transparent 75%, transparent);
-      border-radius: 2em
+    background-color: rgb(255 255 255 / 0.3);
+    background-image: -webkit-linear-gradient(
+      45deg,
+      rgba(255, 255, 255, 0.1) 25%,
+      transparent 25%,
+      transparent 50%,
+      rgba(255, 255, 255, 0.1) 50%,
+      rgba(255, 255, 255, 0.1) 75%,
+      transparent 75%,
+      transparent
+    );
+    border-radius: 2em;
   }
 
   ::-webkit-scrollbar-corner {
-      background-color: transparent
+    background-color: transparent;
   }
-}
+} */

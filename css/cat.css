@@ -1,17 +1,16 @@
-/* 滚动条隐藏 */
-/* body::-webkit-scrollbar {
+body::-webkit-scrollbar {
   width: 0;
-} */
+}
 
 .neko {
   width: 64px;
   height: 64px;
-  background-image: url('https://lskypro.acozycotage.net/LightPicture/2022/12/ba9f5739f169842c.webp');
+  background-image: url('https://bu.dusays.com/2022/07/20/62d812db74be9.png');
   position: absolute;
   right: 32px;
   background-repeat: no-repeat;
   background-size: contain;
-  transform: translateX(60%);
+  transform: translateX(50%);
   cursor: pointer;
   font-family: tzy;
   font-weight: 600;
@@ -55,7 +54,7 @@
 /**
 * @description: 滚动条样式  跟猫二选一
 */
-/* @media screen and (max-width: 992px) {
+@media screen and (max-width: 992px) {
   ::-webkit-scrollbar {
     width: 8px !important;
     height: 8px !important;
@@ -83,4 +82,4 @@
   ::-webkit-scrollbar-corner {
     background-color: transparent;
   }
-} */
+}
